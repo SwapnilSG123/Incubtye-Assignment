@@ -9,7 +9,10 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
        (
-		features=".//src/test/resources/features/homePage.feature",
+		features=
+				    ".//src/test/resources/features/createAccount.feature",
+		
+		
 		glue="stepDefinations",
 		dryRun=false,
 		monochrome = false,
@@ -20,10 +23,6 @@ import io.cucumber.junit.Cucumber;
 		
 		
 		)
-
-
-
-
 
 
 public class TestRun {

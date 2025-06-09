@@ -22,6 +22,6 @@ public class browserIne {
 	}
 	
 	public static void teardown() {
-		driver.quit();
+		//driver.quit();
 	}
 }
